@@ -1,0 +1,176 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #faf8ef;
+    margin: 0px;
+    padding: 0px;
+}
+
+.game-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #bbada0;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #776e65;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    color: #776e65;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#score {
+    font-weight: bold;
+}
+
+#start-button {
+    background-color: #8f7a66;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #6c5b4c;
+}
+
+.grid-container {
+    background-color: #bbada0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.cell {
+    background-color: #cdc1b4;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80px; /* Establece un ancho fijo para las celdas */
+    height: 80px; /* Establece una altura fija para las celdas */
+}
+
+.tile {
+    background-color: #cdc1b4;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.tile-2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.tile-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.tile-8 {
+    background-color: #f9a77c;
+    color: #f9f6f2;
+}
+
+.tile-16 {
+    background-color: #f19663;
+    color: #f9f6f2;
+}
+
+.tile-32 {
+    background-color: #f77c5f;
+    color: #f9f6f2;
+}
+
+.tile-64 {
+    background-color: #f75f3b;
+    color: #f9f6f2;
+}
+
+.tile-128 {
+    background-color: #edd073;
+    color: #f9f6f2;
+    font-size: 1.3em;
+}
+
+.tile-256 {
+    background-color: #edcc62;
+    color: #f9f6f2;
+    font-size: 1.3em;
+}
+
+.tile-512 {
+    background-color: #edc950;
+    color: #f9f6f2;
+    font-size: 1.3em;
+}
+
+.tile-1024 {
+    background-color: #edc63b;
+    color: #f9f6f2;
+    font-size: 1.3em;
+}
+
+.tile-2048 {
+    background-color: #edc22e;
+    color: #f9f6f2;
+    font-size: 1.3em;
+}
+
+/* estilos para las fichas */
+
+.tile-inner {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #776e65; /* Color de número para fichas de fondo claro */
+}
+
+.tile-inner.tile-2, .tile-inner.tile-4 {
+    color: #776e65; /* Color de número para fichas 2 y 4 */
+}
+
+.tile-inner.tile-8, .tile-inner.tile-16, .tile-inner.tile-32 {
+    color: #f9f6f2; /* Color de número para fichas 8, 16 y 32 */
+}
+
+.tile-inner.tile-64, .tile-inner.tile-128, .tile-inner.tile-256, .tile-inner.tile-512 {
+    color: #f9f6f2; /* Color de número para fichas 64, 128, 256 y 512 */
+    font-size: 1.3em; /* Tamaño de fuente ligeramente más pequeño */
+}
+
+.tile-inner.tile-1024, .tile-inner.tile-2048, .tile-inner.tile-4096 {
+    color: #f9f6f2; /* Color de número para fichas 1024, 2048 y 4096 */
+    font-size: 1.2em; /* Tamaño de fuente aún más pequeño */
+}
+
+
+
+/* Agrega estilos adicionales para las fichas, números, etc. */
+
+
+
+
+
+
